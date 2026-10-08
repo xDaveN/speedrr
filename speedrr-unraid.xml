@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>speedrr</Name>
-  <Repository>itschasa/speedrr</Repository>
-  <Registry>https://registry.hub.docker.com/r/itschasa/speedrr/</Registry>
+  <Repository>ghcr.io/xdaven/speedrr:latest</Repository>
+  <Registry>https://github.com/xDaveN/speedrr/pkgs/container/speedrr</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Project>https://github.com/itschasa/speedrr</Project>
+  <Project>https://github.com/xDaveN/speedrr</Project>
   <Overview>
     Dynamically manage upload speeds on torrent clients, with Plex/Jellyfin/Emby intergration.[br]
-    Preset config available at: https://github.com/itschasa/speedrr/blob/main/config.yaml [br]
+    Preset config available at: https://github.com/xDaveN/speedrr/blob/main/config.yaml [br]
     Config needs to be saved in your /mnt/user/appdata/speedrr/ folder.
   </Overview>
   <Category>Tools:Utilities MediaApp:Other MediaApp:Video MediaServer:Video</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/itschasa/speedrr/master/speedrr-unraid.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/itschasa/speedrr/master/images/speedrr.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/xDaveN/speedrr/main/speedrr-unraid.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/xDaveN/speedrr/main/images/speedrr.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
