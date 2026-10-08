@@ -1,10 +1,11 @@
-This fork adds support for qBittorrent 5.2.
-
 <p align="center">
     <img src="https://raw.githubusercontent.com/itschasa/speedrr/master/images/speedrr_text.png" alt="speedrr" width="336" height="84">
     <br/>
     <h1>speedrr - Dynamic Upload and Download Speed Manager for Torrenting</h1>
 </p>
+
+> [!NOTE]
+> This is a fork of [itschasa/speedrr](https://github.com/itschasa/speedrr) that aims to stay compatible with current torrent client releases, starting with qBittorrent 5.2 and its changed login. Images are published to `ghcr.io/xdaven/speedrr`; see the [changelog](CHANGELOG.md) for what changed from upstream.
 
 Change your torrent client's upload speed dynamically, on certain events such as:
 - When a Plex/Jellyfin/Emby stream starts
