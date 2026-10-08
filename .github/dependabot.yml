@@ -1,0 +1,30 @@
+# One grouped PR per ecosystem per interval; majors come separately.
+# Dependency and base-image bumps use fix(deps) so release-please cuts a patch release with the new image.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      pip:
+        update-types: [minor, patch]
+    commit-message:
+      prefix: fix(deps)
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: fix(deps)
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: ci
